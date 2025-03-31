@@ -1,0 +1,13 @@
+
+{
+    "go.vetFlags": ["-unusedresult=warn"],
+    "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.lintTool": "revive",
+  "go.lintFlags": [
+    "-config=${workspaceFolder}/revive.toml"
+  ]
+
+  }
